@@ -7,6 +7,10 @@
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.10
 
+DROP SCHEMA IF EXISTS `Cul-dAmpolla`;
+CREATE SCHEMA IF NOT EXISTS `Cul-dAmpolla` DEFAULT CHARACTER SET utf8 ;
+USE `Cul-dAmpolla` ;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
